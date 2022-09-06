@@ -1,0 +1,17 @@
+.select2 {
+    width: 100% !important;
+}
+
+.datepicker {
+    z-index: 9999 !important;
+}
+
+.btn-roxo {
+    background: #007c3c;
+    color: #fff;
+    border-radius: 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    padding: 8px 25px;
+}

@@ -1,0 +1,376 @@
+.boxs-cursos {
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+    /*margin-top: -170px;*/
+    padding-bottom: 50px;
+    background: #fff;
+    min-height: 450px
+}
+
+.pb-5,
+.py-5 {
+    padding-top: 0 !important
+}
+
+.box-n-agenda {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 340px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    display: block;
+    float: left;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 35px -4px rgba(0, 0, 0, .3);
+    border: 2px solid #fff;
+    -webkit-animation-name: fadeInnm;
+    animation-name: fadeInnm;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s
+}
+
+@-webkit-keyframes fadeInnm {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: none
+    }
+}
+
+.box-n-agenda:hover {
+    border: 2px solid #007c3c;
+    background: #fff;
+    transition: .3s
+}
+
+.box-n-agenda h2 {
+    font-weight: 600;
+    background: 0 0 !important;
+    font-size: 15px;
+    border-left: 2px solid #007c3c;
+    color: #000;
+    padding-left: 5px;
+    margin-bottom: 25px
+}
+
+.box-n-agenda h3 {
+    font-size: 16px;
+    color: #000;
+    padding-top: 5px;
+    font-weight: 700;
+    border-bottom: 1px solid #dde;
+    padding-bottom: 15px
+}
+
+.box-n-agenda p {
+    font-weight: 700;
+    background: 0 0 !important;
+    text-align: left;
+    font-size: 13px;
+    color: #000;
+    padding: 0;
+    margin: 0
+}
+
+.box-n-agenda strong {
+    font-weight: 100;
+    background: 0 0 !important;
+    text-align: left;
+    font-size: 13px;
+    color: #000;
+    margin-bottom: 10px;
+    position: relative;
+    display: block
+}
+
+.btn-agenda {
+    background: #007c3c;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    text-align: center;
+}
+
+.mais-conteudo {
+    position: absolute;
+    display: block;
+    font-size: 14px;
+    color: #bbb;
+    text-align: center;
+    bottom: -25px
+}
+
+.mais-conteudo:hover {
+    color: #007c3c
+}
+
+
+/*
+.mais-conteudo {
+    padding: 5px 15px !important;
+    bottom: 0 !important
+}
+*/
+
+.mais-conteudo {
+    width: 85%;
+    text-align: center;
+    margin: 0
+}
+
+
+/*
+.secao-busca-curso {
+    padding: 15px;
+    background: url(../images/bg-top-cursos.jpg) no-repeat top center;
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+    height: 385px
+}
+
+.secao-busca-curso strong {
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-weight: 100;
+    margin-bottom: 30px
+}
+*/
+
+
+/*
+.secao-busca-curso p {
+    width: 100%;
+    background: url(../images/icon-agenda-topo.png) no-repeat;
+    font-weight: 600;
+    background-position-x: 350px;
+    background-position-y: 20px;
+    text-align: center;
+    position: relative;
+    display: block;
+    font-size: 26px;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    -webkit-animation-name: fadeInnm;
+    animation-name: fadeInnm;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s
+}
+
+@-webkit-keyframes fadeInnm {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: none
+    }
+}
+
+
+form {
+    text-align: center
+}
+
+.secao-busca-curso .form-control {
+    font-size: 14px !important;
+    box-shadow: none;
+    width: 100% !important;
+    height: 40px !important;
+    background: rgba(255, 255, 255, .78);
+    color: #100f0f;
+    float: left;
+    margin-right: 10px;
+    border: 0;
+    padding-left: 25px;
+    -webkit-animation-name: fadeInnm;
+    animation-name: fadeInnm;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s
+}
+
+@-webkit-keyframes fadeInnm {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: none
+    }
+}
+*/
+
+
+/*
+.local {
+    font-size: 13px;
+    background: rgba(255, 255, 255, .2) url(../images/icon-local1.png) no-repeat;
+    background-position: 7px 9px
+}
+
+.formacoes {
+    font-size: 13px;
+    padding-left: 40px;
+    background: rgba(255, 255, 255, .2) url(../images/icon-form1.png) no-repeat;
+    background-position: 10px 10px
+}
+
+.btn-primary {
+    background: #ffa91d url(../images/filtro.png) no-repeat left center !important;
+    border: none;
+    background-position-x: 55px !important;
+    width: 100%;
+    color: #fff;
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 16px;
+    -webkit-animation-name: fadeInnm;
+    animation-name: fadeInnm;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s
+}
+
+@-webkit-keyframes fadeInnm {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: none
+    }
+}
+
+.btn-primary:hover {
+    background: #007c3c url(../images/filtro.png) no-repeat left center !important;
+    background-position-x: 50px !important;
+    color: #fff;
+    transition: .2s !important
+}
+
+.botao-conferir {
+    width: 85%;
+    top: 250px;
+    position: absolute;
+    border-radius: 3px;
+    float: left;
+    padding: 12px 25px;
+    margin: 0;
+    color: #fff;
+    background: #0d395f;
+    overflow: overlay;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px
+}
+
+.botao-conferir:hover {
+    background: #007c3c;
+    transition: .2s;
+    border-top: 1px solid #ddd
+}
+
+.botao-conferir p {
+    width: 100%;
+    position: relative;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px
+}
+
+@media(min-width:993px) and (max-width:1199px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem !important;
+        padding-left: .5rem !important
+    }
+    .secao-busca-curso p {
+        background-position-x: 261px !important
+    }
+    .bottom .copy {
+        margin: 0 auto !important;
+        display: block !important
+    }
+    .mais-conteudo {
+        padding: 5px 15px !important;
+        bottom: 0 !important
+    }
+    .botao-conferir {
+        padding: 12px 15px !important
+    }
+}
+
+@media(max-width:576px) {
+    .form-group {
+        margin-bottom: initial
+    }
+    .form-control {
+        margin-bottom: 15px
+    }
+    .btn-primary {
+        width: 100%;
+        margin: 0;
+        background-position-x: 32px !important
+    }
+    .secao-busca-curso .form-control {
+        font-size: 13px
+    }
+    .secao-busca-curso {
+        margin-top: 75px
+    }
+    .secao-busca-curso p {
+        background-position-x: 0;
+        font-size: 21px;
+        line-height: 20px
+    }
+    .pt-5,
+    .py-5 {
+        padding-top: 1rem !important
+    }
+    .botao-conferir {
+        text-align: center
+    }
+    .mais-conteudo {
+        width: 85%;
+        text-align: center;
+        margin: 0
+    }
+}
+
+@media screen and (max-width:600px) {
+    .boxs-cursos {
+        margin-top: 0
+    }
+}*/

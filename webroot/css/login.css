@@ -1,0 +1,58 @@
+#tudo {
+    background: url("/img/mentor/img/capa_login.jpg") top center;
+}
+
+.login-content {
+    width: 28%;
+    max-width: 484px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    padding: 3rem 1rem;
+    background: rgba(28, 39, 58, .7);
+    border-radius: 10px
+}
+
+.cortextobranco {
+    color: #ffffff;
+}
+
+.title-main {
+    position: relative;
+    padding: 0 50px;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.title-main:after,
+.title-main:before {
+    content: "";
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.title-main:after {
+    left: 0;
+    background: #ffffff;
+}
+
+.title-main:before {
+    right: 0;
+    background: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-content {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
