@@ -1,0 +1,21 @@
+  //TEMPLATES
+  <div class="col-md-6">
+      <?php echo $this->Form->control('tipo_curso_id', ['options' => $tipoCursos, 'empty' => true, 'class' => 'select2']); ?>
+  </div>
+  <div class="col-md-6">
+      <?php echo $this->Form->control('valor', ['prepend' => 'R$']); ?>
+  </div>
+  <div class="col-md-12 text-right">
+      <?php echo $this->Form->submit(__('Salvar')); ?>
+  </div>
+
+//CONTROLLER
+  $query = $this->Escolaridades->find()
+        ->contain(['Situacoes'])
+        ->where(['Escolaridades.situacao_id' => 1]);
+
+
+//MODEL
+$this->setTable('alunos');
+        $this->setDisplayField('nome');
+        $this->setPrimaryKey('id');

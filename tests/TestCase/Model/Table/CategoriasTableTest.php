@@ -3,20 +3,20 @@ declare(strict_types=1);
 
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\CursosTable;
+use App\Model\Table\CategoriasTable;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\CursosTable Test Case
+ * App\Model\Table\CategoriasTable Test Case
  */
-class CursosTableTest extends TestCase
+class CategoriasTableTest extends TestCase
 {
     /**
      * Test subject
      *
-     * @var \App\Model\Table\CursosTable
+     * @var \App\Model\Table\CategoriasTable
      */
-    protected $Cursos;
+    protected $Categorias;
 
     /**
      * Fixtures
@@ -24,11 +24,8 @@ class CursosTableTest extends TestCase
      * @var array
      */
     protected $fixtures = [
-        'app.Cursos',
-        'app.Situacoes',
-        'app.AgendaCursos',
-        'app.CursoDisciplinas',
-        'app.Alunos',
+        'app.Categorias',
+        'app.Livros',
     ];
 
     /**
@@ -39,8 +36,8 @@ class CursosTableTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        $config = $this->getTableLocator()->exists('Cursos') ? [] : ['className' => CursosTable::class];
-        $this->Cursos = $this->getTableLocator()->get('Cursos', $config);
+        $config = $this->getTableLocator()->exists('Categorias') ? [] : ['className' => CategoriasTable::class];
+        $this->Categorias = $this->getTableLocator()->get('Categorias', $config);
     }
 
     /**
@@ -50,7 +47,7 @@ class CursosTableTest extends TestCase
      */
     public function tearDown(): void
     {
-        unset($this->Cursos);
+        unset($this->Categorias);
 
         parent::tearDown();
     }
@@ -61,16 +58,6 @@ class CursosTableTest extends TestCase
      * @return void
      */
     public function testValidationDefault(): void
-    {
-        $this->markTestIncomplete('Not implemented yet.');
-    }
-
-    /**
-     * Test buildRules method
-     *
-     * @return void
-     */
-    public function testBuildRules(): void
     {
         $this->markTestIncomplete('Not implemented yet.');
     }
