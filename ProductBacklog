@@ -1,0 +1,11 @@
+Product Backlog
+
+-------(Modelo)----------------
+"Como um <tipo de usuário> eu quero <fazer algo> para com isso <o valor é criado>"
+"Como [persona], eu [quero], [para que]."
+
+-------(Estórias Criadas)----------------
+EU 01 -Como aluno, eu quero uma tela de consulta, para consultar os livros disponíveis. 
+
+EU 02 -Como bibliotecário, eu quero uma tela de cadastro, para inserir os dados dos alunos.
+EU 03 -Como bibliotecário, eu quero uma tela de cadastro, para inserir os dados do empréstimo do livro.
